@@ -109,7 +109,7 @@ body {
 .section__card img {
   margin-bottom: 1rem;
   max-width: 100px;
-  border-radius: 100%;
+  border-radius: 100%;  
   border: 2px solid var(--primary-color);
   transition: 0.3s;
 }
@@ -142,4 +142,15 @@ body {
 
 .section__card:hover img {
   border-color: var(--white);
+}
+
+@media only screen and (max-width: 1000px) {
+  .section__grid {
+    display: block;
+    gap: 20px;
+  }
+
+  .section__card {
+    margin-top: 20px;
+  }
 }
